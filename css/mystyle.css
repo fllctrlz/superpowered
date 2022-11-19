@@ -1,0 +1,412 @@
+body {
+	/*background-image: linear-gradient(-90deg, #00FFCC, #993366); */
+	/*background-image: linear-gradient(-90deg, #990099, #ff5050); */ 
+	/*background-image: linear-gradient(-90deg, #17ca48, #0bda19); */
+	background-color:#8AE65C
+}
+
+img.small_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:280px;
+	height:210px;
+	}
+
+img.lego_legends_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:800px;
+	height:555px;
+}
+
+img.interview_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:1050px;
+	height:590px;
+}
+
+img.z-box_3d_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:300px;
+}
+
+img.z-box_3d_rectangular_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:222px;
+}
+
+img.z-box_3d_vertical_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 222px;
+	height:300px;
+}
+
+img.small_img_rotate {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	transform: rotate(90deg);
+	width:280px;
+	height:210px;
+}
+
+img.big_img_solution {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:1289px;
+	height:567px;
+}
+
+img.big_img_rotate {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	transform: rotate(90deg);
+	width:560px;
+	height:420px;
+}
+
+img.big_img2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:730px;
+	height:486px;
+}
+
+
+img.xl_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:800px;
+	height:600px;
+}
+
+img.xl_img_rotate {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	transform: rotate(90deg);
+	width:800px;
+	height:600px;
+}
+
+img.xxl_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:1000px;
+	height:650px;
+}
+
+img.xxl_img_rotate {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	transform: rotate(90deg);
+	width:1100px;
+	height:650px;
+}
+
+img.ctv {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:426px;
+	height:231px;
+}
+
+img.ctv2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:656px;
+	height:376px;
+}
+
+img.small_img_vertical {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:210px;
+	height:280px;
+}
+
+img.extra_wide {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:991px;
+	height:297px;
+}
+
+img.ultra_wide {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:1010px;
+	height:189px;
+}
+
+img.smallsquare {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:280px;
+	height:280px;
+}
+
+img.medsquare {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:450px;
+	height:450px;
+}
+
+img.bigsquare {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:650px;
+	height:650px;
+}
+
+img.xlsquare {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:845px;
+	height:845px;
+}
+
+img.portrait {
+	width:57px;
+	height:85px;
+}
+
+img.squareportrait {
+	width:85px;
+	height:85px;
+}
+img.semiportrait {
+	width:65px;
+	height:85px;
+}
+
+img.wideportrait {
+	width:110px;
+	height:85px;
+}
+
+img.vertical_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:355px;
+	height:700px;
+}
+
+img.zbox_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:905px;
+	height:570px;
+}
+
+img.img_robot {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:420px;
+	height:315px;
+}
+
+img.img_zones {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:800px;
+	height:388px;
+}
+
+
+img.attachment_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:400px;
+	height:266px;
+}
+
+img.member_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:57px;
+	height:86px;
+}
+
+img.attachment_vertical_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:400px;
+}
+
+img.sponsorxs {
+	width:218px;
+	height:82px;
+	padding:4px;
+}
+
+img.sponsor {
+	width:337px; 
+	height:140px; 
+	padding:4px;
+}
+
+img.sponsorpac {
+	width:100px;
+	height:100px;
+	padding:4px;
+}
+
+img.sponsorxl {
+	width:505px;
+	height:210px;
+	padding:4px;
+}
+
+img.sponsorshort {
+	width:337px; 
+	height:110px; 
+	padding:4px;
+}
+
+img.sponsorlong {
+	width:337px; 
+	height:195px; 
+	padding:4px;
+}
+
+
+img.nasa1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:600px;
+	height:600px;
+}
+
+
+img.nasa2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:800px;
+	height:2100px;
+}
+
+img.nasa3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:600px;
+	height:1100px;
+}
+
+img.ss
+{
+ 	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+td.tick-border {
+	border: 1px solid black;
+}
+
+th.tick-border {
+	border: 1px solid black; 
+}
+
+img.img_buffalo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:868px;
+	height:222px;
+}
+
+img.img_team {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:590px;
+	height:510px;
+	float:left;
+}
+
+#problem {
+	line-height:30px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
