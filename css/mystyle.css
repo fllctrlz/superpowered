@@ -280,6 +280,15 @@ img.img_robot {
 	height:315px;
 }
 
+img.img_robot_vert {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:302px;
+	height:403px;
+}
+
 img.img_zones {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -295,8 +304,8 @@ img.attachment_img {
 	margin-bottom: 5px;
 	margin-right: 5px;
 	margin-left: 5px;
-	width:400px;
-	height:266px;
+	width:403px;
+	height:302px;
 }
 
 img.member_img {
