@@ -94,76 +94,65 @@
 <div class="container">
     <h1>General Programming Strategy</h1>
 	<br>
-		<ul>
-			<li>We use various functions to run our programs 
-				(so we can reuse code and change 
-			parameters, as required)</li>
+			We regularly use various MyBlocks, also known as subroutines, which allow us to reuse code whenever 
+			possible and to keep our program sizes manageable. Our MyBlocks and parameters are given descriptive 
+			and meaningful names to allow us to easily understand what our programs are doing. We also annotate our 
+			programs to help us with debugging and to better understand the purpose of each line of code.
+
+			<br>
+			<br>
 			
-			<li>We have created a selection program
-			which allows us to quickly and efficiently 
-			choose missions (or even re-run missions 
-			quickly) during matches. Audible sounds 
-			and meaningful EV3 screen messages allow 
-			the user to select programs with ease</li>
+			We have created a main selection program, which allows us to quickly and efficiently choose missions 
+			(or even re-run missions quickly) during matches. Sounds and meaningful EV3 screen messages allow the 
+			user to select programs with ease.
+
+			<br>
+			<br>
+
+			Instead of using standard calibrated values, we use raw light sensor values for more granularity. Our 
+			calibration program collects the lowest and highest light readings the robot would see. Then, based on 
+			those, we scale any light readings to a usable range where 0 is black and 100 is white.			
+
+			<br>
+			<br>
 			
-			<li>By using gear lash removal before each 
-			movement, the acceleration and deceleration movements when starting
-			and stopping a movement, our own 
-			error-corrected move block, and Proportional Integral Derivative
-			line following, we are able to achieve more consistent and repeatable
-			robot movement</li>
+			By using gear lash removal before each movement, the acceleration and deceleration movements when 
+			starting and stopping a movement, our own error-corrected move block, and proportional line following, 
+			we are able to achieve more consistent and repeatable robot movements.
+
+			<br>
+			<br>
+
+			When accelerating from a stationary position, our robot uses Ctrl-Z-designed acceleration and 
+			deceleration features to minimize the likelihood of wheel slip. This provides for greater repeatability 
+			of the robot’s movements.
+
+			<br>
+			<br>
 			
-			<li>We regularly use functions, also known as subroutines, which allows us
-			to reuse code whenever possible and to keep
-			our program sizes manageable.
-			</li>
+			We make frequent use of our square up MyBlock which allows the robot to position itself perpendicularly 
+			to any line (from virtually any angle of attack).
+
+			<br>
+			<br>
+
+			Within all of our major movement MyBlocks (such as our error-corrected move MyBlock and proportional 
+			line following MyBlock), we have another MyBlock inside, called Check_Exit, that is constantly checking 
+			if a certain exit condition is met. When that exit condition is met, the program immediately exits that 
+			loop causing the robot to advance to the next robot maneuver. For example, stop	the robot when one of 
+			the light sensors detects a black line.
+
+			<br>
+			<br>
 			
-			<li>We annotate our work to help us
-			debug programs and to better understand
-			the purpose of each line of code</li>
-			
-			<li>We make frequent use of our square up 
-			function which allows the robot to position 
-			itself perpendicularly to any line (from
-			virtually any angle of attack)</li>
-			
-			<li>Our functions and parameters are given 
-			descriptive and meaningful names to allow 
-			us to easily understand what our programs 
-			are doing</li>
-			
-			<li>Within all of our major movement
-			functions (such as our error-corrected move block and PID line following block),
-			we have a function inside that is constantly 
-			checking if a certain exit condition is met.
-			When that exit condition is met, the program
-			immediately exits that loop causing the robot to 
-			advance to the next robot maneuver. For example, stop
-			the robot when one of the light sensors a black
-			line.</li>
-			
+			<!--
 			<li>Our "Check-Abort" function constantly checks 
 			whether the EV3 up arrow button is pressed.   
 			The robot operator can interrupt missions at any time and
 			still stay within the overall selection program 
 			to avoid the need to exit the program and find 
 			the next program or mission.</li>
-			
-			<li>When accelerating from a stationary position,
-			our robot uses Ctrl-Z-designed acceleration and deceleration feature s
-			to minimize the likelihood of wheel slip. 
-			This provides for greater repeatability of 
-			the robot’s movements.</li>
-			
-			<li>As well, instead of using standard calibrated
-			values, we use raw light sensor values for more
-			granularity. Our calibration program collects the
-			lowest and highest light readings the robot would 
-			see. Then, based on those, we scale any light
-			readings to a usable range where 0 is black and 
-			100 is white.</li>
-		
-		</ul>
+			-->
 
 		<br>
 		<h1>Program Hierarchy</h1>
