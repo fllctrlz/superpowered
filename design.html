@@ -97,19 +97,21 @@
 		<br>
 		<p>
 			When designing our base
-			robot, we established criteria first. We considered things such as the footprint, height, balance, drive train,
+			robot, we established criteria first. We considered things such as the footprint, height, balance, drivetrain,
 			sensors to be used, user
 			interface, etc. To arrive at an optimal base robot. We also strived to design and build a robust base robot, which
 			features a frame around the chassis to provide structural rigidity as well as means to square up against walls and
 			mission models. When we
 			design attachments, we keep	in mind that these attachments need to be robust, easy to
-			install and remove, and both passive and multi-purpose whenever possible. We first tested attchments by hand
+			install and remove, and both passive and multi-purpose whenever possible. We first tested attachments by hand
 			then programmed the robot to complete missions.
 			
 		</p>
 		<br>
 		<img class="prep_img" src="images/design/planning1.jpg">
 		<img class="prep_img" src="images/design/planning3.jpg">
+	<br>
+	<br>
 	<br>
 	<br>
 	<h2> Our Base Robot</h2>
@@ -119,14 +121,13 @@
 	<p>
 		Our robot is very robust and compact with a frame for
 		strength and an easier way to drop in attachments. We use
-		four color sensors, well shielded from ambient light. Our
-		robot has two small trailing wheels, at the back of the frame,
-		which are steering neutral, and 2 small drive wheels. These
+		four color sensors, that well shielded from ambient light. Our
+		robot has four small trailing wheels without rubber,
+		which are steering neutral, and two small, narrow drive wheels. These
 		smaller wheels allow for more accurate robot movements as they
 		decrease the effect of error associated with the drive motor
 		rotation sensors. However, we sacrifice some speed due to
-		our small drive wheels. Our robot also has three guide
-		wheels, on the sides of the robot, to follow the wall.
+		our small drive wheels.
 	</p>
 	<br>
 	
@@ -150,6 +151,8 @@
 			</center>
 		
 		<br>
+		<br>
+		<br>
 
 		<h2>Robot Stud.io CAD Animation</h2>
 		<br>
@@ -161,55 +164,58 @@
 		<br>
 		<br>
 		<br>
-
-		<!--
+		
 		<h2>Ctrl-Z's Base Robot Instruction Manual</h2>
         <br>
-		-->
+		
 
-		<!--
-        <h4>In the latter part of the season, in the interest of encouraging others to participate in FLL,
+		
+        <h4>In the interest of encouraging others to participate in FLL,
 			we are sharing the building instructions for our base robot, below.
         </h4>
 
         <br>
         <center>
-        <a href="cargo_connect_robot.pdf" target="_blank">
+        <a href="robot_instructions.pdf" target="_blank">
             <img src="images/robot/build_inst.jpg"></img></a>
         </center>
-	-->
+	
 
 		<br>
 		<br>
-		<center>
+		<br>
+
 		<h2>Example of Robotic Testing Conducted by Ctrl-Z </h2>
-		
-		<h4> We tested the optimal hight for the color sensor. Our data is shown below
-			the "min" collumn shows the light reading for black and the "max" collumn for 
+
+		<br>
+
+		<h4> We tested for the optimal height for the color sensor. Our data is shown below.
+			The "min" column shows the light reading for black, and the "max" column for 
 			white.
+		<br>
+		<br>
 		</h4>
 		<img class="medsquare" src="images/robot/testing_color1.jpg">
 		<img class="medsquare" src="images/robot/testing_color2.jpg">
 		<br>
-		</center>
-		<!---<h4>Making the Robot Drive Straight</h4>
-			--->
+		<br>
+		<h4>Making the Robot Drive Straight</h4>
+			
 
 
 		
-		<p>We have found that the move functions provided by the EV3 suite are unreliable. Although they have
-			a
-			built in PID feature, they still do not move the robot in a straight line. 
+		<p>We have found that the green move blocks provided by the EV3 suite are unreliable. Although they have
+			a built in PID feature, they still do not move the robot in a straight line. 
 			To test this, we set a designated starting spot for the robot and then we ran it until it hit the wall on the other side of the table. We repeated this
 			dozens of times and found that each time it would end up in a different 
 			spot on the other side of the table. Each time it would be up to an inch 
 			away from the previous run. Then, we made our own error-corrected movement 
 			function (which you can read about in the programming section of this website). We conducted the same experiment using our block and found that there
-			was much less error	and the robot would consistently end up in the same 
-			position on the table.
+			was much less error	and the robot would consistently finish in the same 
+			position at the other end of the table.
 		</p>
 	
-
+		<br>
 		<br>
 
 		<h2>Attachment Details</h2>
@@ -235,10 +241,10 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="tick-border">One-Way Door</td>
+					<td class="tick-border">One-Way Door Part 1</td>
 					<td class="tick-border">
-						The robot then backs up and uses the One-way Door 
-						to pick up the Rechargable Battery.
+						In our first zone, the robot backs up after releasing the 3 energy units from the Wind 
+						Turbine mission model and uses the One-way Door to pick up the Rechargable Battery.
 					</td>
 					<td width="45%" class="tick-border">
 						<img class="attachment_img" src="images/robot/one-way-door1.jpg"></img>
@@ -257,16 +263,17 @@
 				<tr>
 					<td class="tick-border">Power Plant Arm</td>
 					<td class="tick-border">
-						In the third zone, our robot uses the Power Plant Arm to complete the Power Plant mission. 
+						In the third zone, our robot uses the Power Plant Arm to release the 3 energy units from the
+						Power Plant mission model. 
 					</td>
-					<td width="44%" class="tick-border"><img class="attachment_vertical_img"
-							src="images/robot/storage_arm2.jpg"></img></td>
+					<td width="44%" class="tick-border">
+						<img class="attachmentimg" src="images/robot/storage_arm2.jpg"></img></td>
 					</td>
 				</tr>
 				<tr>
 					<td class="tick-border">Power Plant Bucket</td>
 					<td class="tick-border">
-						Two of the energy units roll into the opposite launch areas, and the 3rd is picked up by the 
+						In the third zone, after the Power Plant Arm releases the energy units, two them roll into the opposite launch areas, and the 3rd is picked up by the 
 						Power Plant Bucket.
 					</td>
 					<td width="44%" class="tick-border"><img class="attachment_img"
@@ -274,9 +281,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="tick-border"> Looped Water Shovel</td>
+					<td class="tick-border"> Looped Water Plow</td>
 					<td class="tick-border">
-						In the fourth zone, our robot uses the Looped Water Shovel to push the 
+						In the fourth zone, our robot uses the Looped Water Plow to push the 
 						Looped Water units aside.
 					</td>
 					<td width="44%" class="tick-border"><img class="attachment_img"
@@ -284,9 +291,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="tick-border"> One-Way Door</td>
+					<td class="tick-border"> One-Way Door Part 2</td>
 					<td class="tick-border">						
-						Our robot uses the One-Way Door to collect the energy units from the 
+						In the fourth zone, our robot uses the One-Way Door to collect the energy units from the 
 						solar farm. 						
 					</td>
 					<td width="44%" class="tick-border"><img class="attachment_img"
@@ -296,7 +303,7 @@
 				<tr>
 					<td class="tick-border"> Dinosaur Carrier</td>
 					<td class="tick-border">					
-						Our robot uses the Dinosaur Carrier to bring the Dinosaur and 2 energy units from 
+						In the fourth zone, our robot uses the Dinosaur Carrier to bring the Dinosaur and 2 energy units from 
 						the right home area to the left. These 2 energy units were from the Power Plant. 
 
 					</td>
@@ -305,7 +312,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="tick-border">Energy Storage Arm</td>
+					<td class="tick-border">Hydroelectric Arm</td>
 					<td class="tick-border">
 						In the fifth zone, our robot uses the Energy Storage Arm to pick up the looped water 
 						unit in front of the Hydroelectric Dam and roll the energy unit into launch area.					
@@ -318,8 +325,8 @@
 				<tr>
 					<td class="tick-border">Energy Storage Dump</td>
 					<td class="tick-border">						
-						Our robot uses the Energy Storage Dump to dump the 3 energy units from the Solar Farm into the 
-						Energy Storage.
+						In the fifth zone, our robot uses the Energy Storage Dump to deposit 3 energy units 
+						into the Energy Storage.
 
 					</td>
 					<td width="44%" class="tick-border"><img class="attachment_img"
@@ -327,10 +334,10 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="tick-border">Innovation Plow</td>
+					<td class="tick-border">Power To X Plow</td>
 					<td class="tick-border">
-						Our robot uses the Innovation Plow to bring 3 energy units and our Innovation 
-						Project Model to the Hydrogen Plant Target Area.
+						In our sixth zone, our robot uses the Power To X Plow to bring 3 energy units and our 
+						Innovation Project Model to the Hydrogen Plant Target Area.
 
 					</td>
 					<td width="44%" class="tick-border"><img class="attachment_img"
