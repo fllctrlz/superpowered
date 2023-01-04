@@ -94,7 +94,7 @@
 <div class="container">
     <h1>General Programming Strategy</h1>
 	<br>
-			We regularly use various MyBlocks, also known as subroutines, which allow us to reuse code whenever 
+			We regularly use various MyBlocks, also known as functions, which allow us to reuse code whenever 
 			possible and to keep our program sizes manageable. Our MyBlocks and parameters are given descriptive 
 			and meaningful names to allow us to easily understand what our programs are doing. We also annotate our 
 			programs to help us with debugging and to better understand the purpose of each line of code.
@@ -104,7 +104,7 @@
 			
 			We have created a main selection program, which allows us to quickly and efficiently choose missions 
 			(or even re-run missions quickly) during matches. Sounds and meaningful EV3 screen messages allow the 
-			user to select programs with ease.
+			robot technicians to select programs with ease.
 
 			<br>
 			<br>
@@ -116,7 +116,7 @@
 			<br>
 			<br>
 			
-			By using gear lash removal before each movement, the acceleration and deceleration movements when 
+			By using gear lash removal before each robot movement, the acceleration and deceleration movements when 
 			starting and stopping a movement, our own error-corrected move block, and proportional line following, 
 			we are able to achieve more consistent and repeatable robot movements.
 
@@ -157,11 +157,11 @@
 		<br>
 		<h1>Program Hierarchy</h1>
 		<br>
-		<p>In the interest of maximizing programming efficiency, we use subroutines whenever possible.
-			Subroutines are used for typical robot movements, like line following, squaring to a line,
+		<p>In the interest of maximizing programming efficiency, we use functions whenever possible.
+			Functions are used for typical robot movements, like line following, squaring to a line,
 			error-corrected movements, etc., as well as for entire missions.
 			The use of subroutines allows us to re-use programming code and enjoy the benefits of an
-			efficient mission selection program. This diagram to the left illustrates the great extent
+			efficient mission selection program. The diagram below illustrates the great extent
 			to which Ctrl-Z re-uses programming code.
 		</p>
 		<img src="images/robot/program_hierarchy.png"></img>
@@ -192,8 +192,8 @@
 		
 		<h3>Proportional Line Following</h3>
 
-		<p>We have created a line following program that turns the robot proportionally
-		to the distance of the light sensor from the edge of the line.
+		<p>We have created a line following function that turns the robot proportionally
+		to the distance of the light sensor from the edge of the black line.
 		</p>
 		<br>
 		<img src="images/robot/pid.png" style="width: 720px; height: 1000px;"></img>
@@ -205,7 +205,7 @@
 		<p>We have created a function that makes the robot completely perpendicular to the edge of a black line.
 		Each light sensor corresponds with a motor. The robot drives up to the line and has the light sensor check the
 		reflected light values. If the light sensor sees a value of less than 50 (black), it will tell the motor to move
-		towards a value greater than 50 (white). It does this for both motors while for a set amount of time while slowly decreasing in power,
+		towards a value greater than 50 (white). It does this for both motors for a set amount of time while slowly decreasing in power,
 		until the robot becomes completely perpendicular to the edge of the line.
 		</p>
 		<br>
